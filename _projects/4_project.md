@@ -1,80 +1,100 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: IoT Access Control System
+description: RFID-based door access control system with real-time events
 img:
-importance: 3
-category: fun
+importance: 4
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## IoT Access Control System
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project was developed during my internship at **Broadseg**.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The goal was to build an access control system using **RFID** to manage
+door access and process events in real time.
+
+### Technologies
+
+- NestJS
+- Node.js
+- Kafka
+- Server-Sent Events (SSE)
+- RFID
+- Docker
+
+### How it works
+
+The system receives access events from RFID devices and processes them
+through the backend.
+
+**Kafka** was used to handle the events between the different parts of
+the system, while **Server-Sent Events (SSE)** were used to send
+real-time updates to the application.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid
+        loading="eager"
+        path="assets/img/broadseg-1.png"
+        title="IoT access control system"
+        class="img-fluid rounded z-depth-1"
+        %}
     </div>
+
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid
+        loading="eager"
+        path="assets/img/broadseg-2.png"
+        title="Access control interface"
+        class="img-fluid rounded z-depth-1"
+        %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<div class="caption">
+    Access control system and real-time event monitoring.
+</div>
+
+### Event processing
+
+One of the main parts I worked on was the backend event processing.
+
+When an RFID access event is received, it can be processed through the
+Kafka pipeline and used to update the system in real time.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid
+        path="assets/img/broadseg-kafka.png"
+        title="Kafka event processing"
+        class="img-fluid rounded z-depth-1"
+        %}
     </div>
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Event processing with Kafka.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Real-time notifications
 
-{% raw %}
+I also worked with **Server-Sent Events (SSE)** to provide real-time
+notifications to the application.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+This allowed access events to be displayed without constantly refreshing
+the page.
 
-{% endraw %}
+### Docker
+
+The different components of the application were **containerized with
+Docker**, which made the development and deployment environment easier
+to manage.
+
+### What I learned
+
+This project helped me get more comfortable with **backend development,
+event-driven systems and real-time communication**.
+
+It was also my first experience working with **Kafka** and SSE in a
+real project.

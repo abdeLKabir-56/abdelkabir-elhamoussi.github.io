@@ -1,97 +1,68 @@
 ---
 layout: course
-title: Data Science Fundamentals
-description: This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.
-instructor: Prof. Data
-year: 2024
-term: Spring
-location: Science Building, Room 202
-time: Mondays and Wednesdays, 2:00-3:30 PM
-course_id: data-science-fundamentals
+title: Web Development Training
+description: Practical training in web development fundamentals, frontend and backend technologies.
+instructor: Abdelkabir Elhamoussi
+year: 2022-2023
+term: October 2022 - April 2023
+location: Centre Gama School, Khouribga
+time: -
+course_id: web-development-training
 schedule:
   - week: 1
-    date: Feb 5
-    topic: Introduction to Data Science
-    description: Overview of the data science workflow and key concepts.
-    materials:
-      - name: Syllabus
-        url: /assets/pdf/example_pdf.pdf
-      - name: Slides
-        url: /assets/pdf/example_pdf.pdf
+    topic: Introduction to Web Development
+    description: Introduction to web development and basic computer architecture.
 
   - week: 2
-    date: Feb 12
-    topic: Data Collection and APIs
-    description: Methods for collecting data through APIs, web scraping, and databases.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 1
-        url: /assets/pdf/example_pdf.pdf
+    topic: HTML and CSS
+    description: Introduction to HTML and CSS and the basics of building web pages.
 
   - week: 3
-    date: Feb 19
-    topic: Data Cleaning and Preprocessing
-    description: Techniques for handling missing values, outliers, and data transformation.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Coding Lab
-        url: https://github.com/
+    topic: JavaScript
+    description: Introduction to JavaScript and basic frontend development concepts.
 
   - week: 4
-    date: Feb 26
-    topic: Exploratory Data Analysis
-    description: Descriptive statistics, visualization, and pattern discovery.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 2
-        url: /assets/pdf/example_pdf.pdf
+    topic: Backend Development with PHP
+    description: Introduction to backend development using PHP.
 
   - week: 5
-    date: Mar 4
-    topic: Statistical Analysis
-    description: Hypothesis testing, confidence intervals, and statistical inference.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Review Materials
-        url: /assets/pdf/example_pdf.pdf
-
-  - week: 6
-    date: Mar 11
-    topic: Data Visualization
-    description: Principles and tools for effective data visualization.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 3
-        url: /assets/pdf/example_pdf.pdf
+    topic: Practical Projects
+    description: Helping students apply the concepts learned through practical projects.
 ---
 
-## Course Overview
+## About the Training
 
-This course provides a comprehensive introduction to data science principles and practices. Students will:
+I worked as a **Web Development Trainer** at **Centre Gama School in Khouribga**
+from **October 2022 to April 2023**.
 
-- Learn the end-to-end data science workflow
-- Gain practical experience with data manipulation tools
-- Develop skills in data visualization and communication
-- Apply statistical methods to derive insights from data
+I taught students the basics of web development and helped them apply what
+they learned through practical exercises and projects.
 
-## Prerequisites
+## Topics Covered
 
-- Basic programming knowledge (preferably in Python)
-- Introductory statistics
-- Comfort with basic algebra
+- HTML
+- CSS
+- JavaScript
+- PHP
+- Web development fundamentals
+- Basic computer architecture
 
-## Textbooks
+## My Role
 
-- "Python for Data Analysis" by Wes McKinney
-- "Data Science from Scratch" by Joel Grus
+During this experience, I:
 
-## Grading
+- Taught frontend development basics with HTML, CSS and JavaScript.
+- Introduced students to backend development with PHP.
+- Explained basic computer architecture and web development concepts.
+- Guided students through practical exercises and projects.
+- Helped students understand and apply the concepts covered during the sessions.
 
-- Assignments: 50%
-- Project: 40%
-- Participation: 10%
+## What I Learned
+
+This experience helped me improve my communication and teaching skills,
+especially when explaining technical concepts to people with different
+levels of experience.
+
+It also gave me a different perspective on software development by
+requiring me to explain concepts clearly and focus on the practical side
+of what students were learning.

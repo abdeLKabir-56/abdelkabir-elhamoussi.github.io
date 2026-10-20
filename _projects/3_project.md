@@ -1,81 +1,109 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://www.wikipedia.org/
+title: Wander
+description: AI-powered social network for travellers
+img: assets/img/wander.png
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Wander
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Wander is a social network project for people who like travelling and
+discovering new places.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The idea was to combine the social side of the application with
+personalised recommendations based on the user's interests.
+
+### Technologies
+
+- Java
+- Spring Boot
+- Angular
+- MongoDB
+- REST APIs
+
+### What I worked on
+
+I worked on both the backend and frontend of the application.
+
+The backend was developed with **Spring Boot**, with REST APIs handling
+the application logic and communication with the frontend.
+
+For the frontend, I used **Angular** to build the different interfaces
+and connect them to the backend services.
+
+**MongoDB** was used for storing the application's data.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid
+        loading="eager"
+        path="assets/img/wander-1.png"
+        title="Wander application"
+        class="img-fluid rounded z-depth-1"
+        %}
     </div>
+
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid
+        loading="eager"
+        path="assets/img/wander-2.png"
+        title="Wander interface"
+        class="img-fluid rounded z-depth-1"
+        %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<div class="caption">
+    Wander — social network interface for travellers.
+</div>
+
+### Recommendation system
+
+One of the interesting parts of the project was the recommendation
+feature.
+
+The application uses information about users and their interests to
+provide more personalised recommendations.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid
+        path="assets/img/wander-recommendations.png"
+        title="Wander recommendations"
+        class="img-fluid rounded z-depth-1"
+        %}
     </div>
 </div>
+
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Personalised recommendations based on the user's interests.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Backend
 
-{% raw %}
+The backend is built with **Spring Boot** and exposes REST APIs used by
+the Angular frontend.
 
-```html
+I worked with the data model, API endpoints and the communication between
+the frontend and backend.
+
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid
+        path="assets/img/wander-backend.png"
+        title="Wander backend"
+        class="img-fluid rounded z-depth-1"
+        %}
+    </div>
 </div>
-```
 
-{% endraw %}
+### What I learned
+
+This project gave me more experience with building a complete
+full-stack application and connecting the different parts together.
+
+It also gave me the opportunity to work with **Spring Boot, Angular and
+MongoDB** in the same project and to experiment with personalised
+recommendations.

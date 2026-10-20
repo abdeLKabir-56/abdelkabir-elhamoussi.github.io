@@ -1,81 +1,131 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: AI Agent & RAG Assistant
+description: A local AI assistant built with LangChain, LangGraph and ChromaDB
+img: assets/img/ai-agent.png
 importance: 2
-category: work
+category: AI
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## AI Agent & RAG Assistant
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+I've been working on this project to better understand how LLM applications
+work beyond simply sending a prompt to a model.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The idea is to build an assistant that can retrieve information from a
+knowledge base and use it when answering questions.
+
+### Technologies
+
+- Python
+- LangChain
+- LangGraph
+- Ollama
+- Llama 3.2
+- ChromaDB
+- LangSmith
+
+### How it works
+
+The application takes the user's question and passes it through a small
+workflow.
+
+First, the system decides what kind of question it is. When additional
+information is needed, it retrieves relevant documents from the vector
+database and gives that context to the LLM before generating the answer.
+
+I'm using **LangGraph** to organize the different steps of the workflow
+instead of having everything inside one large function.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid
+        path="assets/img/ai-agent-1.png"
+        title="AI assistant"
+        class="img-fluid rounded z-depth-1"
+        %}
     </div>
+
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid
+        path="assets/img/ai-agent-2.png"
+        title="LangGraph workflow"
+        class="img-fluid rounded z-depth-1"
+        %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<div class="caption">
+    The assistant and the workflow used to process user questions.
+</div>
+
+### RAG
+
+For the retrieval part, I'm using **ChromaDB** as the vector database.
+
+The documents are converted into embeddings and stored in the database.
+When a user asks something, the application searches for the most relevant
+content and passes it to the model as context.
+
+This makes the assistant more useful when the answer depends on information
+that isn't directly contained in the model's prompt.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid
+        path="assets/img/ai-agent-rag.png"
+        title="RAG pipeline"
+        class="img-fluid rounded z-depth-1"
+        %}
+    </div>
+</div>
+
+<div class="caption">
+    Simplified RAG pipeline used in the project.
+</div>
+
+### LangGraph
+
+One of the main reasons I started using LangGraph was to understand how
+different steps in an AI application can be connected together.
+
+The workflow can contain different nodes for classification, retrieval,
+generation and other processing steps.
+
+This also gives me a better starting point for experimenting with more
+advanced agent workflows.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid
+        path="assets/img/langgraph-workflow.png"
+        title="LangGraph workflow"
+        class="img-fluid rounded z-depth-1"
+        %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Local LLMs
 
-{% raw %}
+I'm also experimenting with **Ollama** so that I can run models locally
+instead of depending entirely on external APIs.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+For this project, I've been using **Llama 3.2** while learning how the
+different components of an LLM application fit together.
 
-{% endraw %}
+### What I'm learning from this project
+
+This project is mainly a learning project, but it has helped me understand
+several things that are difficult to see when working with a simple
+LLM + prompt setup:
+
+- Building a basic RAG pipeline
+- Working with vector databases
+- Designing workflows with LangGraph
+- Connecting LLMs with external data
+- Running models locally with Ollama
+- Tracing and debugging LLM applications with LangSmith
+
+I'm continuing to extend the project with more structured agent workflows
+and validation techniques.

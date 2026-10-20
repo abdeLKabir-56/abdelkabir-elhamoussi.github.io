@@ -1,189 +1,227 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Abdelkabir Elhamoussi
+  label: Software Engineer | Full-Stack Java / Angular | DevOps & AI
+  email: abdelkabirelhamoussi@gmail.com
+  location: Morocco
+  image: prof_pic.jpeg
+
+  summary: >
+    Software Engineer with experience in Java, Spring Boot, Angular and React,
+    working on REST APIs, microservices, DevOps and AI-powered applications.
+    Interested in software engineering, cloud, AI agents and building practical
+    software solutions.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: abdeLKabir-56
     - network: LinkedIn
-      username: example
+      username: abdelkabir-elhamoussi
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    city: Khouribga
+    countryCode: MA
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+    Education:
+      - institution: ENSA Khouribga - Sultan Moulay Slimane University
+        location: Khouribga, Morocco
+        area: Software Engineering
+        studyType: State Engineer's Degree
+        start_date: 2020
+        end_date: 2025
+        score: "With Honors"
         highlights:
-          - Description 1.
-          - Description 2.
+          - 5-year engineering programme, Master-equivalent
+          - Software Engineering
+
+      - institution: Dakhla High School
+        location: Khouribga, Morocco
+        area: Physical Sciences
+        studyType: High School Diploma
+        start_date: 2019
+        end_date: 2020
+        score: "With Highest Honors"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+
+      - company: Pixalione
+        position: Full Stack Java / Angular Engineer Consultant
+        location: Remote
+        start_date: 2025-09
+        end_date: Present
+        summary: >
+          Freelance Full-Stack Engineer working on web applications,
+          AI-related features, APIs and deployment workflows.
         highlights:
-          - Relativity
-          - Description 2.
+          - Developed with Java, Spring Boot, Angular and React.
+          - Built and integrated REST APIs and microservices using Spring Boot, MongoDB and Docker.
+          - Worked on Angular interfaces and integrated Figma designs into web applications.
+          - Contributed to AI agent workflows using Spring AI.
+          - Built CI/CD pipelines with GitHub Actions and Jenkins.
+          - Integrated SonarQube, Snyk and OWASP ZAP into development and delivery workflows.
+          - Worked with Terraform and Ansible in Linux environments.
+          - Built RAG pipelines and agent workflows with LangChain and LangGraph.
+          - Used ChromaDB as a vector store and LangSmith for tracing and evaluation.
+          - Participated in code reviews and applied Clean Code and SOLID principles.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Pixalione
+        position: Data & Backend Engineer
+        location: Paris, France
+        start_date: 2025-03
+        end_date: 2025-09
+        summary: >
+          Final-year engineering internship focused on backend development
+          and data processing.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developed a Java / Spring Boot backend for a competitive price-analysis solution.
+          - Designed microservices for data collection, parsing and API services.
+          - Built large-scale data collection pipelines using Jsoup and Selenium.
+          - Integrated GPT APIs for NLP-based data structuring and normalization.
+          - Used MongoDB for data persistence.
+          - Implemented unit tests with JUnit and Mockito.
+          - Added observability using Prometheus, Grafana and Zipkin.
+          - Worked in an Agile team with reporting through Power BI and Looker Studio.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: RapidGoat
+        position: Frontend Developer
+        location: Remote
+        start_date: 2024-12
+        end_date: 2025-02
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Worked on React.js frontend development.
+          - Contributed to a UX overhaul and interactive components.
+          - Worked on frontend performance improvements.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Broadseg
+        position: Full Stack Developer
+        location: Casablanca, Morocco
+        start_date: 2024-07
+        end_date: 2024-09
+        highlights:
+          - Built an IoT and RFID-based door access control system.
+          - Developed backend services using NestJS.
+          - Implemented Kafka-based event processing.
+          - Added real-time notifications using Server-Sent Events.
+          - Containerized the application using Docker.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    Projects:
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - name: AI Agent & RAG Projects
+        summary: >
+          Personal projects exploring LLM applications, RAG and AI agent workflows.
+        highlights:
+          - LangChain and LangGraph
+          - ChromaDB vector database
+          - LangSmith tracing and evaluation
+          - Ollama and local LLM experimentation
+          - AI agent workflows
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - name: Marketify
+        summary: Microservice e-commerce platform
+        highlights:
+          - Spring Boot
+          - Angular
+          - MySQL
+          - Docker
+          - Microservice architecture
+          - Secure payment integration
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - name: Wander
+        summary: AI-powered social network for travellers
+        highlights:
+          - Spring Boot
+          - Angular
+          - MongoDB
+          - Personalised recommendation engine
+          - Full-stack application
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+
+      - name: Backend
+        level: Advanced
+        icon: fa-solid fa-server
+        keywords: "Java, Spring Boot, Spring Data JPA, Hibernate, REST APIs, Microservices, Swagger/OpenAPI, Node.js, NestJS"
+
+      - name: Frontend
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Angular, React.js, TypeScript, JavaScript, HTML, CSS, Bootstrap"
+
+      - name: Databases
+        level: Advanced
+        icon: fa-solid fa-database
+        keywords: "PostgreSQL, MongoDB, MySQL, ChromaDB"
+
+      - name: DevOps
+        level: Intermediate
+        icon: fa-solid fa-gears
+        keywords: "Docker, Kubernetes, GitHub Actions, Jenkins, GitLab CI, Terraform, Ansible, Linux, Bash"
+
+      - name: AI Engineering
+        level: Intermediate
+        icon: fa-solid fa-brain
+        keywords: "LLMs, RAG, LangChain, LangGraph, LangSmith, ChromaDB, Spring AI, AI Agents, Prompt Engineering"
+
+      - name: Security & Code Quality
+        level: Intermediate
+        icon: fa-solid fa-shield-halved
+        keywords: "SonarQube, SonarCloud, Snyk, OWASP ZAP, OWASP Top 10, OAuth2, JWT, Keycloak"
+
+      - name: Testing
+        level: Intermediate
+        icon: fa-solid fa-vial
+        keywords: "JUnit, Mockito, TDD, Selenium, Unit Testing, Code Reviews"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+
+      - name: Arabic
+        summary: "Native"
+
+      - name: French
+        summary: "Fluent"
 
       - name: English
         summary: "Fluent"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: Oracle Cloud Infrastructure AI Foundations Associate
+        date: 2024
+        issuer: Oracle
+        icon: fa-solid fa-cloud
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: AWS Cloud Quest - Digital Badge
+        date: 2024
+        issuer: Amazon Web Services
+        icon: fa-brands fa-aws
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: Docker & Kubernetes
+        date: 2023
+        issuer: Udemy
+        icon: fa-brands fa-docker
+
+      - name: Microsoft Power BI Data Analyst (PL-300)
+        date: 2026
+        issuer: Microsoft
+        icon: fa-solid fa-chart-column
+
+    Interests:
+
+      - name: Software Engineering
+        icon: fa-solid fa-code
+        keywords: "Backend Development, Full-Stack Development, Distributed Systems, Software Architecture"
+
+      - name: Artificial Intelligence
+        icon: fa-solid fa-brain
+        keywords: "LLMs, RAG, AI Agents, Generative AI"
+
+      - name: DevOps
+        icon: fa-solid fa-gears
+        keywords: "Cloud, CI/CD, Containers, Kubernetes, Infrastructure as Code"
+
+      - name: Personal
+        icon: fa-solid fa-plane
+        keywords: "Football, Aviation, Travel"
 
     References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.

@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - abdeLKabir-56
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - abdeLKabir-56/wander
+  - abdeLKabir-56/OptiLab
+  - abdeLKabir-56/Sentiment-Analysis-with-Transformers
+  - abdeLKabir-56/yolov5_object_detection
+  - abdeLKabir-56/School-Management-System
+  - AMIdrissi/Recommendation-System
