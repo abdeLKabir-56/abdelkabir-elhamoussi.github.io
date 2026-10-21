@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://abdelkabir-elhamoussi.github.io/abdelkabir-elhamoussi.github.io/sitemap.xml
+Sitemap: https://abdelkabir-56.github.io/sitemap.xml
