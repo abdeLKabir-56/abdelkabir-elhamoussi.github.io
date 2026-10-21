@@ -36,7 +36,6 @@ real-time updates to the application.
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid
         loading="eager"
-        path="assets/img/broadseg-1.png"
         title="IoT access control system"
         class="img-fluid rounded z-depth-1"
         %}
@@ -45,7 +44,6 @@ real-time updates to the application.
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid
         loading="eager"
-        path="assets/img/broadseg-2.png"
         title="Access control interface"
         class="img-fluid rounded z-depth-1"
         %}
@@ -66,7 +64,6 @@ Kafka pipeline and used to update the system in real time.
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid
-        path="assets/img/broadseg-kafka.png"
         title="Kafka event processing"
         class="img-fluid rounded z-depth-1"
         %}

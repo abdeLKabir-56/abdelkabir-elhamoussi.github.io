@@ -2,7 +2,6 @@
 layout: page
 title: Marketify
 description: Microservice-based e-commerce platform
-img: assets/img/marketify.png
 importance: 1
 category: work
 ---
@@ -42,7 +41,6 @@ flow and handling communication between the different services.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid
-        path="assets/img/marketify-1.png"
         title="Marketify application"
         class="img-fluid rounded z-depth-1"
         %}
@@ -50,7 +48,6 @@ flow and handling communication between the different services.
 
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid
-        path="assets/img/marketify-2.png"
         title="Marketify interface"
         class="img-fluid rounded z-depth-1"
         %}
@@ -73,7 +70,6 @@ independent application components.
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid
-        path="assets/img/marketify-architecture.png"
         title="Marketify architecture"
         class="img-fluid rounded z-depth-1"
         %}

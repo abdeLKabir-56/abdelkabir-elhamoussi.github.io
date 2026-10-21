@@ -3,29 +3,13 @@ layout: about
 title: about
 permalink: /
 
-subtitle: Software Engineer | Java / Spring Boot | Angular / React
+subtitle: Software Engineer | Java / Spring Boot | Angular / React | AI
 
 profile:
   align: right
   image: prof_pic.jpeg
   image_circular: false
-  more_info: >
-    <p>Morocco</p>
-    <p>
-      <a href="mailto:abdelkabirelhamoussi@gmail.com">
-        Email
-      </a>
-    </p>
-    <p>
-      <a href="https://www.linkedin.com/in/abdelkabir-elhamoussi" target="_blank">
-        LinkedIn
-      </a>
-    </p>
-    <p>
-      <a href="https://github.com/abdeLKabir-56" target="_blank">
-        GitHub
-      </a>
-    </p>
+
 
 selected_papers: false
 social: true
@@ -41,28 +25,27 @@ latest_posts:
   limit: 3
 ---
 
-Hi, I'm **Abdelkabir**, a Software Engineer from Morocco.
+Hi, I'm **Abdelkabir**, a Software Engineer based in Morocco.
 
-I mainly work with **Java, Spring Boot, Angular and React**. I've worked on web applications, REST APIs, microservices and integrations, and I'm also comfortable with Docker, CI/CD and cloud-related tools.
+I build web applications and backend systems, mainly with **Java and Spring Boot** on the server side and **Angular and React** on the front end. My experience covers REST APIs, microservices, third-party integrations, and the deployment side of things: containers, CI/CD pipelines, and cloud tooling.
 
-I spent the last part of my engineering studies and the following months working with **Pixalione**, where I worked on different projects involving Java/Spring Boot, Angular, React and AI-related features. I also worked on deployment, CI/CD and some DevOps tasks along the way.
+Lately I've been going deep on **LLMs and AI agents**. I experiment with retrieval-augmented generation (RAG), agent workflows, and tooling like LangChain, LangGraph, ChromaDB, LangSmith, and Spring AI, and I like connecting these ideas to real backend systems.
 
-I'm currently spending a lot of my time learning and experimenting with **LLMs and AI agents**. I've been working with things like **LangChain, LangGraph, ChromaDB, LangSmith and Spring AI**, mostly through personal projects and experiments.
+I enjoy understanding how things work under the hood, so I learn best by building things myself rather than only following tutorials. I write about what I learn on [Medium](https://medium.com/@abdelkabirelhamoussi) and in the [blog](/blog/) section of this site.
 
-I like understanding how things work, trying new technologies and building things myself rather than just following tutorials.
+### Tech stack
 
-### A few things I'm working with
+- **Backend:** Java, Spring Boot, REST APIs, Microservices, PostgreSQL, MongoDB, Kafka
+- **Frontend:** Angular, React, TypeScript
+- **DevOps:** Docker, Kubernetes, GitHub Actions, Jenkins, Terraform, Ansible
+- **AI:** LLMs, RAG, AI agents, LangChain, LangGraph, Spring AI
 
-**Backend:** Java, Spring Boot, REST APIs, MongoDB, PostgreSQL, Kafka
+### Education
 
-**Frontend:** Angular, React, TypeScript
+State Engineer's Degree in Software Engineering, **ENSA Khouribga**, Sultan Moulay Slimane University.
 
-**DevOps:** Docker, Kubernetes, GitHub Actions, Jenkins, Terraform, Ansible
+### Beyond code
 
-**AI:** LLMs, RAG, LangChain, LangGraph, Spring AI, AI agents
+Football, aviation, and travelling.
 
-I graduated from **ENSA Khouribga – Sultan Moulay Slimane University** with a State Engineer's Degree in Software Engineering.
-
-Outside of coding, I like **football, aviation and travelling**.
-
-You can find some of my projects here on the website, or have a look at my **GitHub and LinkedIn** below.
+Feel free to browse the projects on this site, or reach out through the icons next to my photo.

@@ -2,7 +2,6 @@
 layout: page
 title: AI Agent & RAG Assistant
 description: A local AI assistant built with LangChain, LangGraph and ChromaDB
-img: assets/img/ai-agent.png
 importance: 2
 category: AI
 giscus_comments: true
@@ -41,7 +40,6 @@ instead of having everything inside one large function.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid
-        path="assets/img/ai-agent-1.png"
         title="AI assistant"
         class="img-fluid rounded z-depth-1"
         %}
@@ -49,7 +47,6 @@ instead of having everything inside one large function.
 
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid
-        path="assets/img/ai-agent-2.png"
         title="LangGraph workflow"
         class="img-fluid rounded z-depth-1"
         %}
@@ -74,7 +71,6 @@ that isn't directly contained in the model's prompt.
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid
-        path="assets/img/ai-agent-rag.png"
         title="RAG pipeline"
         class="img-fluid rounded z-depth-1"
         %}
@@ -99,7 +95,6 @@ advanced agent workflows.
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid
-        path="assets/img/langgraph-workflow.png"
         title="LangGraph workflow"
         class="img-fluid rounded z-depth-1"
         %}

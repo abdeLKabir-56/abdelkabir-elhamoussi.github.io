@@ -2,7 +2,6 @@
 layout: page
 title: Wander
 description: AI-powered social network for travellers
-img: assets/img/wander.png
 importance: 3
 category: work
 ---
@@ -39,7 +38,6 @@ and connect them to the backend services.
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid
         loading="eager"
-        path="assets/img/wander-1.png"
         title="Wander application"
         class="img-fluid rounded z-depth-1"
         %}
@@ -48,7 +46,6 @@ and connect them to the backend services.
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid
         loading="eager"
-        path="assets/img/wander-2.png"
         title="Wander interface"
         class="img-fluid rounded z-depth-1"
         %}
@@ -70,7 +67,6 @@ provide more personalised recommendations.
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid
-        path="assets/img/wander-recommendations.png"
         title="Wander recommendations"
         class="img-fluid rounded z-depth-1"
         %}
@@ -92,7 +88,6 @@ the frontend and backend.
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid
-        path="assets/img/wander-backend.png"
         title="Wander backend"
         class="img-fluid rounded z-depth-1"
         %}
